@@ -25,22 +25,23 @@
 
     <main class="container">
         <h2>Integrantes del quipo</h2>
-
-        <table id="tabla" class="overflow-auto">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Edad</th>
-                    <th>Correo Electrónico</th>
-                    <th>Acciones</th><!--PAra botones adicionales-->
-                </tr>
-            </thead>
-            <tbody>
-                <!--Aqui van los registros de la base que vienen a traves de la API-->
-            </tbody>
-        </table>
+        <div class="tabla-scroll">
+            <table id="tabla">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                        <th>Correo Electrónico</th>
+                        <th>Acciones</th><!--PAra botones adicionales-->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--Aqui van los registros de la base que vienen a traves de la API-->
+                </tbody>
+            </table>
+        </div>
     </main>
     <!--Modal para agregar registros-->
     <dialog id="modalAgregar">
